@@ -8,9 +8,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 }
 
 function deleteFromObjectByKey(object, key) {
-  let temp = object;
-  delete temp[key];
-  return temp;
+  let {lastname, ...temp} = object;
 }
 
 function destructivelyDeleteFromObjectByKey(object, key) {
