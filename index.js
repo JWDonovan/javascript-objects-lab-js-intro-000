@@ -8,6 +8,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 }
 
 function deleteFromObjectByKey(object, key) {
+  let temp = object;
   return object;
 }
 
